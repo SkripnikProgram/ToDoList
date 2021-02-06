@@ -1,0 +1,28 @@
+
+.form {
+    display: grid;
+    grid-template-areas: "inpt btn";
+    grid-column-gap: 1rem;
+    grid-template-columns: 8fr 2fr;
+}
+.button { 
+    grid-area: btn;
+    color: white;
+    background-color: rgb(103, 103, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.input {
+    grid-area: inpt;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
